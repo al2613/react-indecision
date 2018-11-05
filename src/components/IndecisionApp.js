@@ -12,17 +12,6 @@ export default class IndecisionApp extends React.Component {
         // for modal purposes
         selectedOption: undefined
     };
-    // constructor(props){
-    //     super(props);
-    //     this.handleDeleteOptions = this.handleDeleteOptions.bind(this)
-    //     this.handlePick = this.handlePick.bind(this)
-    //     this.handleAddOption = this.handleAddOption.bind(this)
-    //     this.handleDeleteSingle = this.handleDeleteSingle.bind(this)
-    //     this.state = {
-    //         // we've enabled indecisionApp to have options passed down - a way to configure the default state
-    //         options: [] 
-    //     };
-    // }
 
         // define methods that gets passed down from parent-child. Then the child can call that function
     handleAddOption = (option) => {
